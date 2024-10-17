@@ -1,0 +1,32 @@
+---
+const { navLinks } = Astro.props;
+---
+
+<footer class='bg-gray-50 mt-10'>
+  <div class='w-full max-w-screen-xl mx-auto p-4 md:py-8'>
+    <div class='flex items-center mt-5 justify-between'>
+      <ul
+        class='flex w-full flex-wrap text-md md:text-lg justify-center items-center mb-6 font-medium'
+      >
+        {
+          navLinks.map((link) => (
+            <li>
+              <a class='hover:underline me-4 md:me-6' href={`${link.href}`}>
+                {link.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+    <hr class='my-6 border-gray-200 sm:mx-auto lg:my-8' />
+    <span class='block text-center text-sm text-gray-700 sm:text-center'
+      >© {new Date().getFullYear()}
+      <a href='https://flowbite.com/' class='hover:underline'>Aether Theme</a>,
+      maintained by <a
+        class='text-blue-800'
+        href='https://github.com/thatsmanmeet'>thatsmanmeet</a
+      ></span
+    >
+  </div>
+</footer>
