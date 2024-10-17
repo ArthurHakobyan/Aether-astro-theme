@@ -1,5 +1,6 @@
 ---
 const { navLinks } = Astro.props;
+import { showDeveloperText } from '../data';
 ---
 
 <footer class='bg-gray-50 mt-10'>
@@ -22,11 +23,19 @@ const { navLinks } = Astro.props;
     <hr class='my-6 border-gray-200 sm:mx-auto lg:my-8' />
     <span class='block text-center text-sm text-gray-700 sm:text-center'
       >© {new Date().getFullYear()}
-      <a href='https://flowbite.com/' class='hover:underline'>Aether Theme</a>,
-      maintained by <a
-        class='text-blue-800'
-        href='https://github.com/thatsmanmeet'>thatsmanmeet</a
-      ></span
-    >
+      <a href='https://flowbite.com/' class='hover:underline'>Aether Theme</a>
+
+      {
+        showDeveloperText && (
+          <span>
+            {' '}
+            ,maintained by{' '}
+            <a class='text-blue-800' href='https://github.com/thatsmanmeet'>
+              thatsmanmeet
+            </a>
+          </span>
+        )
+      }
+    </span>
   </div>
 </footer>

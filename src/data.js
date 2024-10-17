@@ -84,3 +84,6 @@ export const contactOptions = [
   { name: 'LinkedIN', link: 'https://linkedin.com' },
   { name: 'X', link: 'https://x.com' },
 ];
+
+// for enabling/disabling maintained by text in footer, if you want.
+export const showDeveloperText = true;
