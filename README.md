@@ -1,6 +1,8 @@
 
 # Aether Astro Theme
 
+![Aether Theme Header Image](./screenshots/header.jpg)
+
 Aether is a sleek, minimalist theme designed for Astro.js, perfect for those who value simplicity and speed. With a focus on clean design and efficient performance, Aether ensures your website loads quickly, providing a seamless user experience.
 
 ## Features
@@ -42,6 +44,7 @@ npm run build // to build production version in `dist` folder.
 npm run preview // Preview the production version
 ```
 
+Note: Configure the `site` property in the `astro.config.mjs` file before deploying it. Add your site url, to generate `sitemap.xml` and `robots.txt` file.
 
 ## Perfect Lighthouse score
 
@@ -56,3 +59,6 @@ Aether have a perfect lighthouse score in every aspect, giving your site a blazi
 ![screenshot 3](./screenshots/3.png)
 ![screenshot 4](./screenshots/4.png)
 
+## License
+
+This theme is Licensed under MIT License.
