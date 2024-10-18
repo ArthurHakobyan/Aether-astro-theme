@@ -23,8 +23,8 @@ export default function Navbar({ navLinks }) {
   };
   return (
     <nav className='relative top-0 left-0 w-full'>
-      <div className='flex justify-between p-5'>
-        <a href='/' className='logo text-lg font-bold'>
+      <div className='flex justify-between items-center p-5'>
+        <a href='/' className='logo text-md font-bold'>
           {navLogoText ? navLogoText : 'Aether.'}
         </a>
         <div className='links'>
@@ -37,7 +37,7 @@ export default function Navbar({ navLinks }) {
           </ul>
         </div>
         <motion.div
-          className={`flex flex-col md:hidden gap-[5px] cursor-pointer z-50 ${
+          className={`flex flex-col md:hidden gap-[3.5px] cursor-pointer z-50 ${
             isToggled ? 'fixed top-6 right-5' : ''
           }`}
           onClick={() => setIsToggled((prev) => !prev)}
