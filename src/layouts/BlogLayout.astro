@@ -15,13 +15,17 @@ import '../styles/blog.css';
     <p class='mb-3 text-sm ml-2'>
       Published on {frontmatter.pubDate} by {frontmatter.author}
     </p>
-    <Image
-      src={frontmatter.heroImage}
-      alt={frontmatter.title}
-      height={400}
-      width={760}
-      class='rounded-lg my-5'
-    />
+    {
+      frontmatter.heroImage ? (
+        <Image
+          src={frontmatter.heroImage}
+          alt={frontmatter.title}
+          height={400}
+          width={760}
+          class='rounded-lg my-5'
+        />
+      ) : null
+    }
     <slot />
   </main>
   <Footer navLinks={navLinks} />
