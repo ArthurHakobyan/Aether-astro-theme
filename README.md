@@ -3,7 +3,7 @@
 
 ![Aether Theme Header Image](./screenshots/header.jpg)
 
-Aether is a sleek, minimalist theme designed for Astro.js, perfect for those who value simplicity and speed. With a focus on clean design and efficient performance, Aether ensures your website loads quickly, providing a seamless user experience.
+Aether is a sleek, minimalist portfolio theme designed for Astro.js, perfect for those who value simplicity and speed. With a focus on clean design and efficient performance.
 
 ## Features
 
