@@ -58,22 +58,22 @@ export const skills = [
 
 export const workExperiences = [
   {
-    organisationName: 'company 1',
-    position: 'Intern',
-    date: '2022 - 2023',
-    info: ['I worked on this', 'I showed this skills'],
+    organisationName: 'Epoq Kjøkken',
+    position: 'Warehouse Worker',
+    date: '2017',
+    info: ['I worked on Pallet Picker', 'I was collecting the orders'],
   },
   {
-    organisationName: 'company 2',
-    position: 'UI/UX Designer',
-    date: '2024 - present',
-    info: ['I worked on this', 'I showed this skills'],
+    organisationName: 'Bluesoft',
+    position: 'Front-end Developer',
+    date: '2017',
+    info: ['I worked on CMS', 'I was programming landing pages'],
   },
   {
-    organisationName: 'company 3',
-    position: 'React Developer',
-    date: '2022 - 2023',
-    info: ['I worked on this', 'I showed this skills'],
+    organisationName: 'Jine Holicstvi',
+    position: 'Barber',
+    date: '2019 - nowaday',
+    info: ['I worke as a Barber', 'I show mad skills'],
   },
 ];
 
