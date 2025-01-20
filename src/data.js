@@ -73,7 +73,7 @@ export const workExperiences = [
     organisationName: 'Jine Holicstvi',
     position: 'Barber',
     date: '2019 - nowaday',
-    info: ['I worke as a Barber', 'I show mad skills'],
+    info: ['I work as a Barber', 'I show mad skills'],
   },
 ];
 
