@@ -1,19 +1,19 @@
 export const isTransitionEnabled = true; // for enabling view transitions
 
-export const myName = 'John Doe'; // For name in main intro text
+export const myName = 'Arthur Hakobyan'; // For name in main intro text
 
-export const navLogoText = 'John Doe'; // navbar left-most logo text
+export const navLogoText = 'ARTHUR'; // navbar left-most logo text
 // bio for main section
 
-export const myBio = `A passionate web developer with a knack for creating dynamic and responsive web applications. With a background in computer science and a love for coding, I thrive on turning ideas into reality through technology.`;
+export const myBio = `I come from a small and kind place where I learned to be a kind and loving person. That country is called Armenia. Now, I am living in the Czech Republic, where I am learning about a new culture and sharing my knowledge and love with new and interesting people. I will share more about myself in my simple and welcoming blog.`;
 
 // about me text for about section
 
 export const aboutMe =
-  'I specialize in front-end development with a focus on creating user-friendly interfaces. My skills include HTML, CSS, JavaScript, and frameworks like React and Vue.js. I also have experience in back-end development using Node.js and Express, making me a versatile full-stack developer.';
+  'I am someone who finds the world around me truly enchanting, where everything feels perfectly magical. Every day, I’m grateful for the chance to experience this incredible life. I’m naturally curious and love exploring new things, always eager to learn more. With every bit of knowledge I gain, I try to share it with others, hoping to connect and spread the wonder of this amazing planet we all call home.';
 
 // A sub text for writing/blog section
-export const writingText = `I typically keep my words few, but when I do pen them, it’s a glimpse into my passions and my adventure through the digital landscape.`;
+export const writingText = `This is my first experience with writing, but with the help of new technologies, I will try to share the world inside my head with you. I will cover topics that I love, that concern me, and that I find interesting. Mostly, it will be about "Universe," "Music," and maybe "Traveling."`;
 
 // A sub text for contact section
 
@@ -44,13 +44,14 @@ export const skills = [
   'CSS',
   'JavaScript',
   'React',
-  'Express',
-  'Nodejs',
-  'MongoDB',
   'Git',
   'GitHub',
   'Astrojs',
   'TailwindCSS',
+  'Barbering',
+  'Ableton Live',
+  'Music Production',
+  'Mixing and Mastering',
 ];
 
 // work experience box for about section of the page
@@ -79,10 +80,10 @@ export const workExperiences = [
 // contact box for contact section of the page
 
 export const contactOptions = [
-  { name: 'Github', link: 'https://github.com' },
-  { name: 'Instagram', link: 'https://instagram.com' },
-  { name: 'LinkedIN', link: 'https://linkedin.com' },
-  { name: 'X', link: 'https://x.com' },
+  { name: 'Github', link: 'https://github.com/ArthurHakobyan' },
+  { name: 'Instagram', link: 'https://www.instagram.com/oziaofficial?igsh=MXBvZWNrb3Fycmo0Yg%3D%3D&utm_source=qr' },
+  { name: 'LinkedIN', link: 'www.linkedin.com/in/arthurthecreator' },
+  { name: 'X', link: 'https://x.com/webdev_am' },
 ];
 
 // for enabling/disabling maintained by text in footer, if you want.
