@@ -13,7 +13,7 @@ export const aboutMe =
   'I am someone who finds the world around me truly enchanting, where everything feels perfectly magical. Every day, I’m grateful for the chance to experience this incredible life. I’m naturally curious and love exploring new things, always eager to learn more. With every bit of knowledge I gain, I try to share it with others, hoping to connect and spread the wonder of this amazing planet we all call home.';
 
 // A sub text for writing/blog section
-export const writingText = `This is my first experience with writing, but with the help of new technologies, I will try to share the world inside my head with you. I will cover topics that I love, that concern me, and that I find interesting. Mostly, it will be about "Universe," "Music," and maybe "Traveling."`;
+export const writingText = `This is my first experience with writing, but with the help of new technologies, I will try to share the world inside my head with you. I will cover topics that I love, that concern me, and that I find interesting.`;
 
 // A sub text for contact section
 
