@@ -82,7 +82,7 @@ export const workExperiences = [
 export const contactOptions = [
   { name: 'Github', link: 'https://github.com/ArthurHakobyan' },
   { name: 'Instagram', link: 'https://www.instagram.com/oziaofficial?igsh=MXBvZWNrb3Fycmo0Yg%3D%3D&utm_source=qr' },
-  { name: 'LinkedIN', link: 'www.linkedin.com/in/arthurthecreator' },
+  { name: 'LinkedIn', link: 'https://www.linkedin.com/in/arthurthecreator/' },
   { name: 'X', link: 'https://x.com/webdev_am' },
 ];
 
