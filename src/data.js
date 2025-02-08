@@ -31,8 +31,8 @@ export const navLinks = [
 // Selected projects (side box) for main section of page
 
 export const selectedProjects = [
-  { name: 'Chatbot with AI', link: 'chatbotopenai.netlify.app' },
-  { name: 'E-commerce Next JS/Headles CMS', link: 'oziashop.netlify.app' },
+  { name: 'Chatbot with AI', link: 'https://chatbotopenai.netlify.app' },
+  { name: 'E-commerce Next JS/Headles CMS', link: 'https://oziashop.netlify.app' },
   { name: 'Project 3', link: '#' },
   { name: 'Project 4', link: '#' },
 ];
