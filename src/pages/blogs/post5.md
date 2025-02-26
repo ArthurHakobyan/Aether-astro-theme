@@ -31,6 +31,7 @@ For Converting the code written in a high-level language into machine-level lang
 * Compilers help improve the security of Applications.
 * Compilers give Debugging tools, which help in fixing errors easily.
 
+&nbsp; 
 ### Disadvantages of Compiler
 
 * The compiler can catch only syntax errors and some semantic errors .
@@ -43,6 +44,7 @@ An Interpreter is a program that translates a programming language into a compre
 * It translates only one statement of the program at a time.
 * Interpreters, more often than not are smaller than compilers.
 
+&nbsp; 
 ### Role of an Interpreter
 
 The simple role of an interpreter is to translate the material into a target language. An Interpreter works line by line on a code. It also converts high-level language to machine language.
@@ -53,6 +55,7 @@ The simple role of an interpreter is to translate the material into a target lan
 * Interpreters allow the management of memory automatically, which reduces memory error risks.
 * Interpreted Language is more flexible than a Compiled language.
 
+&nbsp; 
 ## Disadvantages of Interpreter
 
 * The interpreter can run only the corresponding Interpreted program.
@@ -137,6 +140,7 @@ The simple role of an interpreter is to translate the material into a target lan
       
 
 
+&nbsp; 
 ### Conclusion
 
 In summary, compilers and interpreters both serve the purpose of converting high-level code into something a computer can understand, but they do so in different ways. A compiler translates the whole program at once, which can make it run faster but takes more time to compile. An interpreter translates and runs the code line by line, making it easier to catch errors and debug, though it may run slower.
