@@ -27,6 +27,7 @@
 .blog p {
   margin-bottom: 1em;
   line-height: 1.5;
+
 }
 
 /* Lists */
@@ -86,5 +87,12 @@
 
   .blog h4 {
     font-size: 1.25em;
+  }
+}
+
+/* Styles for screens 600px or wider */
+@media (min-width: 600px) {
+  .blog p {
+    width: 80%;
   }
 }
